@@ -180,8 +180,8 @@ ul {
 
 /* the styles for the aside */
 aside {
-	width: 21.94%;
-	float: right;
+	width: calc(60% - 5%);
+	float: none;
 	padding: 0 0 20px 3%;
 }
 aside h2 {
