@@ -235,6 +235,9 @@ footer p {
 	aside {
 		padding-right: 3%;
 	}
+	.speaker-list {
+		column-count: 2;
+	}
 	img {
 		max-width: 30%;
 	}
