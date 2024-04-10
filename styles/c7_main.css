@@ -59,9 +59,8 @@ header img {
 }
 #nav_menu ul li a {
     display: block;
-    width: 16.67%; /* 160px converted to percentage */
     text-align: center;
-    padding: 1.67% 0; /* 16px converted to percentage */
+    padding: 1em 2em;
     text-decoration: none;
     background-color: #800000;
     color: white;
