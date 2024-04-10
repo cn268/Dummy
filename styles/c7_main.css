@@ -211,4 +211,31 @@ footer p {
 	padding: 1em 0;
 }
 
-
+@media (max-width: 620) {
+	aside h2 a {
+		font-size: 85%;
+	}
+	section h1 {
+		font-size: 125%;
+	}
+	section h2, aside h2 {
+		font-size: 110%;
+	}
+}
+@media (max-width: 500px) {
+	header img {
+		float: none;
+		margin: 0 auto;
+		display: block;
+	}
+	section, aside {
+		float: none;
+		width: 94;
+	}
+	aside {
+		padding-right: 3%;
+	}
+	img {
+		max-width: 30%;
+	}
+}
