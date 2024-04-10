@@ -144,6 +144,7 @@ article {
 }
 article h2 {
 	padding-top: 0;
+	list-style-type: circle;
 }
 article h3 {
 	font-size: 105%;
