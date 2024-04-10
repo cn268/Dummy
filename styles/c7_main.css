@@ -210,7 +210,9 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
-
+#mobile_menu {
+	display: none;
+}
 @media (max-width: 620) {
 	aside h2 a {
 		font-size: 85%;
@@ -240,5 +242,16 @@ footer p {
 	}
 	img {
 		max-width: 30%;
+	}
+}
+@media screen and (max-width: 500px) {
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #800000;
 	}
 }
