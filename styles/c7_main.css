@@ -47,6 +47,9 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* Nav Menu */
+#nav_menu {
+	width: 100%;
+}
 #nav_menu ul {
     list-style-type: none;
     margin: 0;
