@@ -48,45 +48,58 @@ header img {
 }
 /* Nav Menu */
 #nav_menu {
-	width: 100%;
+    width: 100%;
+	background-color: #800000;
 }
+
 #nav_menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #800000;
+}
+
+#nav_menu ul li {
+    display: inline;
     position: relative;
 }
-#nav_menu ul li {
-    float: left;
-	position: relative;
-}
+
 #nav_menu ul li a {
     display: block;
     text-align: center;
-    padding: 1em 2em;
     text-decoration: none;
     background-color: #800000;
     color: white;
     font-weight: bold;
-	width: 100%;
+    padding: 1em 2em; /* Moved width declaration from here */
 }
-#nav_menu a.current {
+
+#nav_menu ul li a.current {
     color: yellow;
 }
+
 #nav_menu ul ul {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
-	width: 100%
+    width: 100%;
 }
-#nav_menu ul li:hover > ul {
+
+#nav_menu ul ul li {
+    display: block;
+    width: 100%;
+}
+
+#nav_menu ul li:hover ul {
     display: block;
 }
-#nav_menu > ul::after {
+
+#nav_menu::after {
     content: '';
-    clear: both;
     display: block;
+    clear: both;
 }
 /* Style rule for submenu */
 .submenu {
